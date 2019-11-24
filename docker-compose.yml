@@ -1,0 +1,14 @@
+version: '3.2'
+services:
+  app:
+    build: './docker/app'
+    volumes:
+      - './:/app'
+    networks:
+      default:
+        aliases:
+         - solid-pod
+networks:
+  default:
+    external:
+      name: nginx-agora
