@@ -7,7 +7,7 @@ services:
     networks:
       default:
         aliases:
-         - solid-pod
+         - node-solid-server
 networks:
   default:
     external:

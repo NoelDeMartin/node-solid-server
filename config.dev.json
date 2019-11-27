@@ -1,0 +1,18 @@
+{
+  "root": "./data",
+  "port": "8443",
+  "serverUri": "https://data.noeldemartin.test",
+  "webid": true,
+  "mount": "/",
+  "configPath": "./config",
+  "configFile": "./config.json",
+  "dbPath": "./.db",
+  "sslKey": "./privkey.pem",
+  "sslCert": "./fullchain.pem",
+  "multiuser": false,
+  "server": {
+    "name": "Noel's POD",
+    "description": "",
+    "logo": ""
+  }
+}
