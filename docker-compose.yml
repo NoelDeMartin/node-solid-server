@@ -4,6 +4,7 @@ services:
     build: './docker/app'
     volumes:
       - './:/app'
+      - '/etc/letsencrypt:/etc/letsencrypt'
     networks:
       default:
         aliases:
