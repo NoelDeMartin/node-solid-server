@@ -1,55 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome to Solid</title>
-  <link rel="stylesheet" href="/common/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/common/css/solid.css">
-</head>
-<body>
-<div class="container">
-  <div class="page-header">
-    <div class="pull-right">
-      <button id="register" type="button" class="btn btn-primary">Register</button>
-      <button id="login"    type="button" class="hidden btn btn-default btn-success">Log in</button>
-      <button id="logout"   type="button" class="hidden btn btn-danger">Log out</button>
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Noel's Data POD</title>
+        <style>
+            html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}strong{font-weight:bolder}button,input{font-family:inherit;font-size:100%;line-height:1.15;margin:0;overflow:visible}button{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{color:inherit;display:table;max-width:100%;white-space:normal}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}[hidden]{display:none}html{box-sizing:border-box;font-family:sans-serif}*,:after,:before{box-sizing:inherit}button{background:transparent;padding:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{border:0 solid #e2e8f0}input::-webkit-input-placeholder{color:#a0aec0}input::-moz-placeholder{color:#a0aec0}input:-ms-input-placeholder{color:#a0aec0}input::-ms-input-placeholder{color:#a0aec0}input::placeholder{color:#a0aec0}[role=button],button{cursor:pointer}button,input{padding:0;line-height:inherit;color:inherit}canvas,svg{display:block;vertical-align:middle}.bg-gray-300{background-color:#e2e8f0}.flex{display:-webkit-box;display:flex}.items-center{-webkit-box-align:center;align-items:center}.justify-center{-webkit-box-pack:center;justify-content:center}.h-40{height:10rem}.h-screen{height:100vh}.w-40{width:10rem}.w-screen{width:100vw}
+        </style>
+    </head>
+    <body class="w-screen h-screen bg-gray-300 flex justify-center items-center">
+        <button id="auth">
+            <svg class="w-40 h-40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 322"><g fill="none"><path d="M87.973 282.353l-60.732-105.33a31.6 31.6 0 010-31.538L87.973 40.233c5.646-9.784 16.08-15.795 27.321-15.795H236.68c11.266 0 21.727 6.011 27.321 15.795l60.758 105.304a31.6 31.6 0 010 31.537l-60.732 105.33c-5.646 9.784-16.08 15.795-27.321 15.795H115.372a31.846 31.846 0 01-27.4-15.846z" fill="#FFF"/><path d="M93.151 275.197l-57.115-99.06c-5.308-9.185-5.308-20.504 0-29.663l57.115-99.086a29.742 29.742 0 0125.734-14.857h114.23c10.59 0 20.426 5.646 25.734 14.857l57.167 99.034c5.308 9.185 5.308 20.504 0 29.663l-57.141 99.138a29.742 29.742 0 01-25.734 14.858H118.937a29.787 29.787 0 01-25.786-14.884z" fill="#7C4DFF"/><path d="M118.469 142.233h117.534a2.649 2.649 0 002.654-2.654v-22.04c0-14.65-11.891-26.54-26.54-26.54h-70.568c-20.53-.026-37.157 16.6-37.157 37.13-.026 7.833 6.27 14.104 14.077 14.104zm11.527 97.368h70.229c21.207 0 38.432-17.225 38.432-38.432 0-7.078-5.724-12.828-12.828-12.828H106.942a2.537 2.537 0 00-2.55 2.55v23.054c-.026 14.181 11.475 25.656 25.604 25.656z" fill="#F7F7F7"/><path d="M109.596 139.319l87.663 87.662c5.802 5.803 15.196 5.803 20.998 0l15.196-15.196c5.803-5.802 5.803-15.196 0-20.998l-87.637-87.663c-5.802-5.802-15.196-5.802-20.998 0l-15.196 15.196c-5.855 5.803-5.855 15.222-.026 20.999z" fill="#F7F7F7"/><path fill="#444" opacity=".3" d="M198.69 228.464l-51.495-40.123h11.397zm-54.33-126.797l40.565 40.566h13.765z"/></g></svg>
+        </button>
 
-    <h1>Welcome to the Solid Prototype</h1>
-  </div>
-
-  <p class="lead">
-    This is a prototype implementation of a Solid server.
-
-    It is a fully functional server, but there are no security or stability guarantees.
-
-    If you have not already done so, please create an account.
-  </p>
-
-  <p class="lead hidden" id="loggedIn">
-    You are logged in as
-    <a href="#" id="profileLink"></a>.
-  </p>
-
-  <section>
-    {{#if serverLogo}}
-    <img src="{{serverLogo}}" />
-    {{/if}}
-    <h2>Server info</h2>
-    <dl>
-      <dt>Name</dt>
-      <dd>{{serverName}}</dd>
-      {{#if serverDescription}}
-      <dt>Description</dt>
-      <dd>{{serverDescription}}</dd>
-      {{/if}}
-      <dt>Details</dt>
-      <dd>Running on <a href="https://github.com/solid/node-solid-server/releases/tag/v{{serverVersion}}">Solid {{serverVersion}}</a></dd>
-    </dl>
-  </section>
-</div>
-<script src="/common/js/solid-auth-client.bundle.js"></script>
-<script src="/common/js/auth-buttons.js"></script>
-</body>
+        <script src="/common/js/solid-auth-client.bundle.js"></script>
+        <script src="/common/js/auth-buttons.js"></script>
+    </body>
 </html>
