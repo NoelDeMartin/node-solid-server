@@ -2,6 +2,8 @@
 
 Forked from [node-solid-server](https://github.com/solid/node-solid-server) in order to customize for personal use. This repository is not intended for others to use, so don't expect it to work in your environment. But I'm leaving it public for educational purposes. If you'd like to use it yourself or make some changes, you should head to the [original repository](https://github.com/solid/node-solid-server).
 
+If you want to know more read [this](https://noeldemartin.com/tasks/configuring-a-self-hosted-solid-pod-server).
+
 ## Development
 
 This assumes you are using [nginx-agora](https://github.com/NoelDeMartin/nginx-agora).
